@@ -93,8 +93,15 @@ To skip the staging area, we can use -a comand
 -> git diff
 -> git diff --staged   ; To know the commits made in the staging area
 
-#To remove a file
- -> 
+
+readme.md -> md : Mrkdown -> to make the file interactive
+
+#To remove a file from git
+  delete 1st from git
+   -> git rm --cached creds.md
+
+
+
 
 
 
