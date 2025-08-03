@@ -8,7 +8,7 @@ in mac -> default installed, not in windows
 
 -> git --version
 
-#ti get the user details:
+# to get the user details:
 -> git config --global --list
 
 # To set the user configuration
@@ -35,7 +35,7 @@ in mac -> default installed, not in windows
 
 (This is most important command, so that git recognizs that this is the part of Git Repo to take care).
 
-# if you work in file and save it, it won't save in Git repo untill you git tracks this file.
+ if you work in file and save it, it won't save in Git repo untill you git tracks this file.
 
 ->  git status -> now it works -> On brach master && No commits yet
                 # we dont need mastr, we need main
@@ -61,7 +61,7 @@ working directory -> your code/file in local machine
 Local repo -> local .git file ;
 need to push in staging area
 
-#To commit the file we need to use add command
+# To commit the file we need to use add command
 
 -> git add firstcode.txt
 -> git status ; first code file in staging area
@@ -103,8 +103,35 @@ readme.md -> md : Mrkdown -> to make the file interactive
 
 ## Git Hub Repository
 
+->To push the local to remote
 
+Got to linux/ bash to push into github
 
+-> mkdir -> cat "This is git course" >>Readme.md
+
+-> git init
+-> git add readme.md  -> to move to staging
+
+-> git commit -m "first commit"
+-> git branch -M main
+
+# To push
+-> ss -keygen -o
+
+-> ls -a
+-> cd .ssh
+-> ls -a 
+-> cat id_rsa
+(This is ssh key)
+
+-> goto ssh and GPG keys in Github
+-> click New SSH key -> paste the ssh key
+ Now server and client both are connected
+ 
+
+-> git remote add origin git@githubcom:lakshmiprasad7766.git
+
+-> push -u origin main
 
 
 
