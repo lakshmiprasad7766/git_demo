@@ -96,9 +96,9 @@ To skip the staging area, we can use -a comand
 
 readme.md -> md : Mrkdown -> to make the file interactive
 
-To remove a file from git
-  delete 1st from git
-   -> git rm --cached creds.md
+#To remove a file from git
+delete 1st from git
+-> git rm --cached creds.md
 
 
 
