@@ -49,7 +49,39 @@ To delete the file:
 
 -> git init -b main  -> branch is main; No commits
 
+
+
+
 ## Git commits
+
+-> git status ; no commits; empty file
+
+-> click new project;
+working directory -> your code/file in local machine
+Local repo -> local .git file ;
+need to push in staging area
+
+#To commit the file we need to use add command
+
+-> git add firstcode.txt
+-> git status ; first code file in staging area
+
+-> git log
+-> git commit ; file goto local repo
+
+# For every	commit give "message" to the commit you hve changed
+
+-> git commit -m "my first commit"
+
+# Now this file is tracked by Git
+-> git log
+
+
+
+
+
+
+
 
 
 
