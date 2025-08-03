@@ -1,1 +1,62 @@
-Git demo
+Git demo by Telusko  (Udemy)
+
+Git -> VCS -> used to update/ to make the changes in the file
+
+Installation:
+
+in mac -> default installed, not in windows
+
+-> git --version
+
+#ti get the user details:
+-> git config --global --list
+
+# To set the user configuration
+
+-> git config  --global user.name "Prasad"
+#set email ID
+
+-> git config  --global user.email "lakshmiprasad7766@gmail.com"
+
+
+## Git Init
+
+-> open Vscode
+-> open folder  -> it is working directory
+->open terminal -> 
+
+# working directory; staging area : where user wants to track the folder/files using this git ->tc of these files
+ # Others u can ignore
+# commit history -> where we see can the commiting details
+
+# in terminal
+-> git init -> creates local repository in local machine/project
+           # it shows the file path as well -> hidden folder -> git trackes  thsi file.
+
+(This is most important command, so that git recognizs that this is the part of Git Repo to take care).
+
+# if you work in file and save it, it won't save in Git repo untill you git tracks this file.
+
+->  git status -> now it works -> On brach master && No commits yet
+                # we dont need mastr, we need main
+
+To delete the file:
+-> rm -rf .git  _ it shows error (delete from local machine)
+
+-> git status  ; not a git repo (empty folder)
+
+# To get main 
+
+-> git init -b main  -> branch is main; No commits
+
+## Git commits
+
+
+
+
+
+
+
+
+
+
