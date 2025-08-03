@@ -77,6 +77,25 @@ need to push in staging area
 -> git log
 
 
+## Git skipping
+
+-> working directory -> staging area (add) -> local repo in git (commmit) 
+
+To skip the staging area, we can use -a comand
+
+-> git commit -a -m "My third commit"
+
+
+# Git Diff
+ It will show the what are the commits I have changed in the file.
+
+-> git add Fiestcode.txt
+-> git diff
+-> git diff --staged   ; To know the commits made in the staging area
+
+#To remove a file
+ -> 
+
 
 
 
